@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: large;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: medium;
+}
+
+button {
+    font-family: 'Arial', sans-serif;
+    font-size: medium;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+#mouseoverImage {
+    margin-top: 30px;
+    padding: 20px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#mouseoverImage img {
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+}
